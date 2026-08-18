@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Temporary editor files
+*.save
+
+# Runtime logs
+logs/*.log
+
+# Generated FAISS index
+indexes/*.index
+
+# Runtime cache
+cache/id_mapping.json
+cache/processed_events.json
